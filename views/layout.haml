@@ -1,0 +1,38 @@
+!!! 5
+%html
+  %head
+    %title Maize Market
+    %link{:rel => 'stylesheet', :type => 'text/css', :href => '/styles/reset.css'}
+    %link{:rel => 'stylesheet', :type => 'text/css', :href => '/styles/text.css'}
+    %link{:rel => 'stylesheet', :type => 'text/css', :href => '/styles/960.css'}
+    %link{:rel => 'stylesheet', :type => 'text/css', :href => '/styles/maizemarket.css'}
+    %link{:rel => 'stylesheet', :type => 'text/css', :href => '/styles/mobile.css'}
+    %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1'}
+    %link{:rel => 'icon', :type => 'image/png', :href => '/images/favicon.png'}
+  %body
+    #container.container_12
+      .header-wrapper
+        .grid_12.header
+          %a.switch{:href => "#"}
+            %img{:src => "/images/michigan.png"}>/
+            Switch School ▾
+          .upper-right
+            %form{:action => "#"}
+              %input.search{:placeholder => "Search Maize Market"}/
+              %input.submit{:type => "submit", :value => "Search"}/
+            %a.navbar{:href => "#"} My Account
+            •
+            %a.navbar{:href => "#"} Search
+          .clear
+          .logo-strip
+            %a.logo{:href => "#"}
+              %span.maize Maize
+              Market
+            %a.post{:href => "#"}
+              %span.plus> +
+              Post to Maize Market
+            .clear
+            %h3 Buy and Sell Things Within The University of Michigan
+        .clear
+      .clear
+      = yield

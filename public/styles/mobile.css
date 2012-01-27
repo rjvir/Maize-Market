@@ -1,0 +1,47 @@
+@media only screen and (max-width: 479px) {
+
+	body {
+		min-width:240px;
+	}
+
+	.container_12 {
+		width:240px;
+		margin:0px;
+		padding:20px;
+	}
+		
+	h1 {
+		font-size:32px;
+	}
+	
+	h3 {
+		font-size:20px;
+	}
+	
+	h1, h3 {
+		width:100%;
+		text-align:center;
+	}
+	
+	.grid_12 {
+		width:100% !important;
+	}
+	
+	.footer {
+		width:240px;
+		padding-left:45px;
+	}
+		
+	.post, .navbar, .switch {
+		display:none;
+	}
+	
+	.category {
+		border-bottom:none;
+	}
+	
+	.search {
+		margin-right:14px;
+	}
+	
+}
